@@ -1,0 +1,33 @@
+@keyframes empty {
+    from {
+      font-size: larger;
+    }
+    to {
+      font-size: smaller;
+    }
+  }
+  
+  @keyframes some {
+    0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(-100px) rotate(45deg);
+      opacity: 0.8;
+    }
+    100% {
+      transform: translateY(-200px) rotate(90deg);
+      opacity: 0;
+    }
+  }
+  
+  /* @keyframes some {
+    from {
+      color: #8a2be2;
+    }
+    to {
+      color: rgb(255, 25, 0);
+    }
+  } */
+  
